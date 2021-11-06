@@ -1,0 +1,67 @@
+* {
+    margin: 0; 
+    padding: 0;			
+    box-sizing: border-box;    
+    text-decoration: none;
+    font-family: Century Gothic;
+    font-size: 18px;
+        
+}
+
+body {
+    background-color: rgb(247, 239, 247);
+}
+
+h2 {
+    font-family: KG What A Time;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    font-family: KG What A Time;
+    font-size: 30px;
+    text-align: center;
+}
+
+#formulario {
+    background: #abebf36b;
+    width: 100%; 
+    max-width: 500px;
+    position: relative;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+
+.s1{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.s2 {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+
+
+p {
+    font-weight:bold;
+}
+
+#boton {
+    padding: 10px 40px ;
+    margin-top: 40px;
+    border: 3px solid rgba(121, 76, 113, 0.993);
+    font-size: 20px;
+    background: rgba(165, 119, 157, 0.993);
+    color: white;
+    cursor: pointer;
+    outline: none;	
+
+}

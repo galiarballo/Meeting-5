@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/hobbies/style.css" rel="stylesheet" type="text/css">
+    <script src="app.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Datos personales</h2>
+    <h3>Ingrese sus datos, por favor</h3>
+    
+    <form action="" method="GET" id="formulario" name="formulario">
+        <label for="Nombre" >Nombre: </label>
+        <input type="text" name="Nombre" id="nombre" required>
+        <br><br>
+        <label for="Apellido">Apellido: </label>
+        <input type="text" class="Apellido" name="apellido" id="apellido" required>
+        <br><br>
+        <label for="Edad">Edad: </label>
+        <input type="number" name="Edad" id="edad" required>
+        <br><br>
+        
+        <label for="">Pais: </label>
+        <select name="pais" id="pais">
+            <option value="ar">Argentina</option>
+            <option value="br">Brasil</option>
+            <option value="cl">Chile</option>
+            <option value="co">Colombia</option>
+            <option value="mx">México</option>
+        </select>
+        <br><br>
+
+        <fieldset class="s1"> 
+            <p id="sexo">Sexo:</p> <br>
+            <input type="Radio" name="sexo" value="ms" checked> Masculino 
+            <br> 
+            <input type="Radio" name="sexo" value="fe"> Femenino
+            <br> 
+            <input type="Radio" name="sexo" value="ot"> Otro
+            <br> 
+            <input type="Radio" name="sexo" value="no"> Prefiero no responder
+            <br> 
+        </fieldset>
+        <fieldset class="s2">
+            <p id="hobbie">Hobbies: </p>
+            <input name="hobbies" type="checkbox"/>Ciclismo
+            <br><br>
+            <input name="hobbies" type="checkbox"/>BMX
+            <br><br>
+            <input name="hobbies" type="checkbox"/>Skate
+            <br><br>
+            <input name="hobbies" type="checkbox"/>Basket
+            <br><br>
+            <input name="hobbies" type="checkbox"/>Patinaje artístico
+            <br><br>
+            <input name="hobbies" type="checkbox" />Otros:
+            <br><br>
+            <textarea name="Otro" id="" cols="30" rows="10" placeholder="Escriba brevemente su hobbie:"></textarea>
+            <br><br>
+        </fieldset>
+        <input type="button" onclick="Datos()" value="Ver Resultados" id="boton">
+
+    </form>
+    <div id="listado"></div>
+</body>
+</html>
